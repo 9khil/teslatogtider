@@ -1,3 +1,8 @@
 #root {
   padding: 1rem;
 }
+
+.departure-frame-container {
+  display: flex;
+  gap: 20px;
+}
