@@ -31,6 +31,12 @@ function Header() {
           <ul>
             <li>Time now (moment time object): {moment().format()}</li>
             <li>Timezone: {moment.tz.guess()}</li>
+            <li>
+              Prøv denne tavla:{" "}
+              <a href="https://tavla.entur.no/PDMD1VYR4RvaxJ8XKwdC">
+                Supertavle
+              </a>
+            </li>
           </ul>
         </div>
       )}
