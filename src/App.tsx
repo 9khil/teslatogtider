@@ -1,10 +1,11 @@
 import "./App.css";
 import DepartureFrame from "./components/DepartureFrame";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <h1>Nu</h1>
+      <Header />
       <div className="departure-frame-container">
         <DepartureFrame
           station="Myrvoll"

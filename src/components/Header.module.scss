@@ -1,0 +1,13 @@
+.headerTopRow {
+  .switchRow {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+  }
+}
+
+.debugContainer {
+  background-color: lightgray;
+  padding: 10px 5px;
+}
